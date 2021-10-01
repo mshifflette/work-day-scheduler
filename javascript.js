@@ -28,7 +28,7 @@ console.log(currentDay)
 $('#currentDay').text(currentDay)
 
 
- var currentHour = moment().format("H")
+ var currentHour = parseInt(moment().format("H"))
 
 
 // for (let i = 0; i < listOfTextAreas.length; i++) {
